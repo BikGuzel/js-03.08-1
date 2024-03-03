@@ -1,0 +1,62 @@
+<script>
+
+    var Name = prompt('input your name')
+
+    alert('Hello, '+Name)
+
+</script>
+<script>
+    var Year  = prompt('input the year of your Birth Date')
+
+    alert(2024-Year)
+
+</script>
+<script>
+    var side=prompt('input A side of the square')
+
+    alert(side*4)
+</script>
+<script>
+    var radius = prompt('input radius of the circle')
+
+    alert(Math.PI*Math.pow(radius,2))
+
+</script>
+<script>
+    var Time=prompt('input Time in hours')
+    var Dist=prompt('input distance in km')
+
+    alert(Dist/Time +' km/h')
+
+</script>
+<script>
+    const kurs = 0.84
+
+    var Dollars =prompt('input summ in dollars')
+
+    alert((Dollars*kurs).toFixed(2) +' Euro')
+
+</script>
+<script>
+
+   var Vol=prompt('input volume')
+
+   var numb = Math.floor((Vol*1024)/820)
+
+   alert(numb)
+
+</script>
+<script>
+
+    var pocket=prompt('input amount of money in your pocket')
+
+    var choc=prompt('input price of the chocolate')
+
+    var buyAble=(pocket/choc)-(pocket/choc)%1
+
+    var left =pocket-buyAble*choc
+
+    alert('number of chocolates:'+buyAble)
+
+    alert('left in pocket:'+left)       
+</script>
